@@ -23,5 +23,5 @@ stone-paper-scissors/
 
 ## Notes
 
-- Make sure the `images` folder contains the three images: `rock.png`, `paper.png`, `scissors.png`.  
+- Make sure the `images` folder contains the three images: `rock.png`, `paper.png`, `scissor.png`.  
 - All file and folder names are case-sensitive.
