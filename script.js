@@ -1,12 +1,12 @@
 let key1 = "";
   let key2 = "";
   let key3 = "";
-  let bigKey1 = parseInt(localStorage.getItem("key1"));
-  let bigKey2 = parseInt(localStorage.getItem("key2"));
-  let bigKey3 = parseInt(localStorage.getItem("key3"));
-  let wins = 0 || bigKey1;
-  let losses = 0 || bigKey2;
-  let draws = 0 || bigKey3;
+  
+ 
+ 
+  let wins = parseInt(localStorage.getItem("key1")) || 0;
+  let losses = parseInt(localStorage.getItem("key2")) || 0;
+  let draws = parseInt(localStorage.getItem("key3"))  || 0;
   let userChoice = "";
   let cpuChoice = "";
  
@@ -21,7 +21,7 @@ let key1 = "";
   let clckBtn3 = button3.addEventListener("click",game);
    
   function game(event){
-     let cpuNumber = Math.round((Math.random() * (3-1+1))+1);
+     let cpuNumber = Math.round((Math.random() * (3))+1);
   if(cpuNumber===1){
     cpuChoice = "Rock";
   }
