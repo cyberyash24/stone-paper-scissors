@@ -1,6 +1,6 @@
-let key1 = "";
-  let key2 = "";
-  let key3 = "";
+let key1="";
+let key2="";
+let key3="";
   
  
  
@@ -21,7 +21,7 @@ let key1 = "";
   let clckBtn3 = button3.addEventListener("click",game);
    
   function game(event){
-     let cpuNumber = Math.round((Math.random() * (3))+1);
+     let cpuNumber = Math.floor((Math.random() * 3)+1);
   if(cpuNumber===1){
     cpuChoice = "Rock";
   }
